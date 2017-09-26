@@ -1,0 +1,253 @@
+.content {
+	background: #636363;
+	padding: 20px 0px;
+	height: auto;
+	overflow: hidden;
+}
+
+.sidebar_left_lm {
+	width: 243px;
+	float: left;
+	text-align: left;
+	background: url(../images/lm_03.jpg) repeat-y #ebebeb;
+	margin-left: 10px;
+	position: relative;
+}
+
+.column {
+	width: 243px;
+	height: 54px;
+	text-align: left;
+}
+
+.menu {
+	background: #ebebeb;
+	width: 233px;
+	font-size: 16px;
+}
+
+.menu ul li {
+	height: 45px;
+	width: 95%;
+	line-height: 45px;
+	padding-left: 15px;
+	text-align: left;
+	border-bottom: 2px #fafafa solid;
+	background: url(../images/gynb_03.jpg) right no-repeat;
+}
+
+.sidebar_right_lm {
+	width: 710px;
+	float: right;
+	background: #fff;
+	margin: 0 15px 20px 20px;
+}
+
+.dq {
+	height: 45px;
+	line-height: 45px;
+	text-align: left;
+	background: #f2f2f2;
+	border-bottom: 2px #aeaeae solid;
+}
+
+.dq_left {
+	height: 45px;
+	line-height: 45px;
+	text-align: left;
+	padding: 0px 5px 0px 20px;
+}
+
+.dq_right {
+	height: 45px;
+	line-height: 45px;
+	text-align: left;
+	width: 500px;
+	white-space: nowrap;
+}
+
+.list {
+	padding: 20px;
+	text-align: left;
+	background: #FFFFFF;
+	overflow: hidden;
+}
+.list>div{
+	float: left;
+}
+.list_left{
+	width: 38%;
+	height: auto;	
+	margin-right: 2%;
+}
+.list_right{
+	width: 58%;
+	height: auto;
+}
+
+.list_left .list_left_top {
+    background: url('../images/20150407125041504150.jpg');
+    background-size: 100% 100%;
+}
+.list_left .list_left_bottom {
+    background: url('../images/20150407125019961996.jpg');
+    background-size: 100% 100%;
+}
+
+.list_right .list_right_top {
+    background: url('../images/20150407124853245324.jpg');
+    background-size: 100% 100%;
+}
+.list_right .list_right_bottom {
+    background: url('../images/20150407105345174517.jpg');
+    background-size: 100% 100%;
+}
+
+
+.list_left_top,.list_left_bottom{
+	width: 100%;
+	height: 220px;
+	margin-bottom: 3%;
+	position: relative;
+}
+.list_right_top,.list_right_bottom{
+	width: 100%;
+	height: 220px;
+	margin-bottom: 2%;
+	position: relative;
+}
+.default_pgContainer {
+	min-height: 100px;
+}
+.text_pro{
+	width: 125px;
+    background: #000;
+    height: 35px;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    line-height: 35px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: "微软雅黑";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.list>h2{
+	text-align: center;
+	line-height: 40px;
+}
+.navigation_right_bottom_content {
+	width: 95%;
+	height: 90%;
+	margin: 0 auto;
+	
+}
+.navigation_right_img{
+	width: 100%;
+	height: 100%;
+}
+.navigation_right_img_1,.navigation_right_img_2,.navigation_right_img_3{
+	width: 90%;
+	height: 30%;
+	margin: 0 auto;
+	margin-top: 1rem;
+}
+.navigation_right_img_1 img,.navigation_right_img_2 img,.navigation_right_img_3 img{
+	width: 100%;
+	height: 100%;
+	border: #ccc;
+}
+
+.list_header{
+	width: 100%;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.list>p{
+	font-size: 14px;
+}
+.p_indent{
+	text-indent: 2em;
+}
+.list_print{
+	padding: 20px;
+	text-align: right;
+}
+.list_print>b{
+	border-right: 1px solid grey;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+/*预约*/
+.order_online{
+	width:96%;
+	font-size: 24px;
+	font-weight: bold;
+	background: url(../images/dgqr_03.jpg) no-repeat left;
+	padding-left: 30px;
+	line-height: 50px;
+	border-bottom: 1px solid darkgray;
+}
+.order_things_left{
+	width: 50%;
+}
+.order_things_left span{
+	color: red;
+}
+.order_things_left td{
+	height: 43px;
+}
+.order_things_left td:first-child{
+	width: 35%;
+	text-align: right;
+}
+.order_things_left_three,
+.order_things_left_two {
+	width:90%;
+	height:80%;
+	border-radius: 3px;
+	line-height: 40px;
+	border: 1px solid darkgray;
+	
+}
+.order_things_left_select{
+	width:80%;
+	height:80%;
+	border-radius: 3px;
+	line-height: 40px;
+	border: 1px solid darkgray;
+}
+.get_number{
+	width: 80%;
+	height: 80%;
+	background: blue;
+	border: 1px solid blue;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#order_form_sub{
+	width: 30%;
+	height: 80%;
+	background: orangered;
+	border: 1px solid orangered;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#order_form_can{
+	width: 30%;
+	height: 80%;
+	background: gray;
+	color: #fff;
+	border: 1px solid gray;
+	border-radius: 5px;
+	cursor: pointer;
+}

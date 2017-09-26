@@ -1,0 +1,45 @@
+
+/*content*/
+
+.map_content_right {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 3%;
+	margin-left: 1%;
+	width: 69%;
+	height: auto;
+	float: right;
+}
+
+
+.map_content_right_bottom {
+	width: 100%;
+	height: 723px;
+	background: white;
+}
+
+.map_right_bottom_content .dituContent {
+	width: 100%;
+	height: 100%;
+	border: #ccc solid 1px;
+}
+
+.map_right_header {
+	width: 90%;
+	height: 80px;
+	background-image: url(../images/11.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 70%;
+	text-align: center;
+	font-size: 2em;
+	margin: 0 auto;
+	padding-top: 1%;
+	border-bottom: 1px solid #E3E3E3;
+}
+
+.map_right_bottom_content {
+	width: 95%;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 5%;
+}

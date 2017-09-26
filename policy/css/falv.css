@@ -1,0 +1,111 @@
+.content {
+	background: #636363;
+	padding: 20px 0px;
+	height: auto;
+	overflow: hidden;
+}
+
+.sidebar_left_lm {
+	width: 243px;
+	float: left;
+	text-align: left;
+	background: url(../images/lm_03.jpg) repeat-y #ebebeb;
+	margin-left: 10px;
+	position: relative;
+}
+
+.column {
+	width: 243px;
+	height: 54px;
+	text-align: left;
+}
+
+.menu {
+	background: #ebebeb;
+	width: 233px;
+	font-size: 16px;
+}
+
+.menu ul li {
+	height: 45px;
+	width: 95%;
+	line-height: 45px;
+	padding-left: 15px;
+	text-align: left;
+	border-bottom: 2px #fafafa solid;
+	background: url(../images/gynb_03.jpg) right no-repeat;
+}
+
+.sidebar_right_lm {
+	width: 710px;
+	float: right;
+	background: #fff;
+	margin: 0 15px 20px 20px;
+}
+
+.dq {
+	height: 45px;
+	line-height: 45px;
+	text-align: left;
+	background: #f2f2f2;
+	border-bottom: 2px #aeaeae solid;
+}
+
+.dq_left {
+	height: 45px;
+	line-height: 45px;
+	text-align: left;
+	padding: 0px 5px 0px 20px;
+}
+
+.dq_right {
+	height: 45px;
+	line-height: 45px;
+	text-align: left;
+	width: 500px;
+	white-space: nowrap;
+}
+
+.list {
+	padding: 20px;
+	text-align: left;
+	background: #FFFFFF;
+	overflow: hidden;
+}
+
+.list table:first-child{
+	width: 100%;
+	height: auto;
+}
+.list table:first-child tbody tr td{
+	font-size: 14px;
+	line-height: 55px;
+}
+.list table:first-child tbody tr td:nth-child(2){
+	text-align: right;
+}
+.list table:last-child{
+	width: 70%;
+	height: 100px;
+	margin: 0 auto;
+}
+.default_pgContainer {
+	min-height: 100px;
+}
+
+.text_pro {
+	width: 100px;
+	height: 20px;
+	background: black;
+	opacity: 0.5;
+	color: white;
+	padding: 2px 5px;
+	text-align: center;
+	position: relative;
+	top: 89%;
+	font-size: 14px;
+}
+
+.list table:nth-child(1) tr {
+    border-bottom: 1px dashed #ccc;
+}

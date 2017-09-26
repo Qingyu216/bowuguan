@@ -1,0 +1,79 @@
+
+/*content*/
+
+
+
+
+.organization_content_right {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 3%;
+	margin-left: 1%;
+	width: 69%;
+	height: auto;
+	float: right;
+}
+
+
+.organization_content_right_bottom {
+	width: 100%;
+	height: auto;
+	background: white;
+	padding: 20px 0;
+}
+
+.organization_right_header {
+	width: 90%;
+	height: 80px;
+	background-image: url(../images/11.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 70%;
+	text-align: center;
+	font-size: 2em;
+	margin: 0 auto;
+	padding-top: 1%;
+	border-bottom: 1px solid #E3E3E3;
+}
+
+.organization_right_bottom_content {
+	width: 95%;
+	height: 90%;
+	margin: 0 auto;
+	
+}
+.organization_bottom_1,.organization_bottom_2,.organization_bottom_3,.organization_bottom_4{
+	width: 100%;
+	height: 200px;
+/*	margin-bottom: 1%;*/
+}
+.ora{
+	margin: 2% 2% 0% 3%;
+	float: left;
+	width: 300px;
+	height: 150px;
+	border: 1px solid #C9C9C9;
+	background: #A090AA;
+	box-shadow: 3px 3px 3px #ccc;
+	cursor: pointer;
+}
+.organization_bottom_4_center{
+	width: 60%;
+	height: 150px;
+	border: 1px solid #C9C9C9;
+	background: #A090AA;
+	margin: 0 auto;
+	box-shadow: 3px 3px 3px #ccc;
+}
+.txt_ora{
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 17px;
+	text-align: center;
+	margin-top: 12%;
+}
+.txt_ora1{
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 17px;
+	text-align: center;
+}

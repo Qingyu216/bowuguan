@@ -1,0 +1,62 @@
+
+
+
+/*content*/
+
+
+.content_right {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 3%;
+	margin-left: 1%;
+	width: 69%;
+	height:auto;
+	float: right;
+}
+
+
+.right_bottom {
+	width: 100%;
+	height: auto;
+	background: white;
+}
+
+.right_header {
+	width: 90%;
+	height: 80px;
+	background-image: url(../images/11.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 70%;
+	text-align: center;
+	font-size: 2em;
+	margin: 0 auto;
+	padding-top: 1%;
+	border-bottom: 1px solid #E3E3E3;
+}
+.people_number{
+	width: 90%;
+	height: 260px;
+	margin: 2% auto;
+	border-bottom:1px dashed #0066CC ;
+}
+.people_number table{
+	width: 90%;
+	height: 80%;
+	margin: 2%;
+}
+.photo{
+	width: 120px;
+	height: 150px;
+	border: 1px solid #ccc;
+}
+.people_number table tbody tr td{
+	font-size: 14px;
+    color: 000000;
+    font-weight: bold;
+    line-height: 26px;
+
+}
+.td_2{
+	width: 200px;
+	word-wrap: break-word;
+}

@@ -1,0 +1,85 @@
+/*馆藏概括*/
+.list>p{
+	text-align: center;
+}
+.list>p:nth-child(1){
+	height: 50px;
+	line-height:50px ;
+	font-size: 22px;
+	font-weight: bold;
+}
+.list>p:nth-child(2){
+	line-height:38px;
+	height:38px;
+	border-top: 1px dashed #636363;
+	border-bottom: 1px dashed #636363;
+}
+.list .list_generalize{
+	margin-top:30px;
+	font-size: 16px;
+	text-indent:2em ;
+	padding: 30px;
+}
+.list .prev_and_next{
+	margin-top:20px;
+	margin-left: 80%;
+	line-height:20px;
+}
+.prev_and_next b{
+	margin:0 3px;
+	border-left: 1px solid #0E4470;
+	line-height:20px;
+}
+/*馆藏精品*/
+.images_list>div{
+	text-align: center;
+	float: left;
+	width:213px;
+	height: 172px;
+	margin-top: 10px;
+}
+.images_list>div div{
+	border: 1px solid #003784;
+	width:200px;
+	height: 150px;
+	margin:0 auto 5px auto;
+}
+.images_list>div img{
+	width: 195px;
+	height: 146px;
+	margin:2px;
+}
+.margin_right{
+	margin-right: 15px;
+}
+.paging{
+	margin-top: 30px;
+	text-align: right;
+	width: 100%;
+	line-height: 35px;
+}
+/*特展精品*/
+/*详细信息*/
+.details_list_first{
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid #0E4470;
+	text-align: right;
+	font-size: 16px;
+}
+.details_list_second{
+	width: 90%;
+	height: 414px;
+	margin: 30px auto;
+	text-align: center;
+}
+.details_list_second>img{
+	width: 100%;
+	height: 100%;
+}
+.details_list_third{
+	margin-top:30px;
+	font-size: 16px;
+	text-indent:2em ;
+	padding: 30px;
+}

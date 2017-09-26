@@ -1,0 +1,64 @@
+
+
+
+/*content*/
+
+
+.content_right {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 3%;
+	margin-left: 1%;
+	width: 69%;
+	height:auto;
+	float: right;
+}
+
+
+.right_bottom {
+	width: 100%;
+	height: auto;
+	background: white;
+}
+
+.right_header {
+	width: 90%;
+	height: 80px;
+	background-image: url(../images/11.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 70%;
+	text-align: center;
+	font-size: 2em;
+	margin: 0 auto;
+	padding-top: 1%;
+	border-bottom: 1px solid #E3E3E3;
+}
+.Museum_profile_content_right_1{
+	width: 100%;
+	height: 420px;
+	margin: 5px 0px 5px 0px;
+	border: 1px solid #ccc;
+}
+.Museum_profile_content_right_1 img{
+	width: 100%;
+	height:100%;
+}
+.Museum_profile_content_right_pro{
+	text-align: center;
+	padding: 2%;
+	font-size: 1.1em;
+	color: brown;
+}
+.right_bottom_content {
+	width: 85%;
+	height: 94%;
+	margin: 0 auto;
+}
+
+p {
+	text-indent: 2em;
+	font-size: 1.2em;
+	line-height: 1.8rem;
+	margin-bottom: 2%;
+}
+

@@ -1,0 +1,69 @@
+/*dynamic_gonggao_list.html*/
+
+.dynamic_list {
+    min-height: 400px;
+    padding: 20px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.dynamic_list ol li {
+    height: 34px;
+    border-bottom: 1px dashed #999;
+    line-height: 40px;
+}
+
+
+/*dynamic_details.html*/
+
+.dynamic_list {
+    min-height: 400px;
+    padding: 20px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.dynamic_list ol li {
+    height: 34px;
+    border-bottom: 1px dashed #999;
+    line-height: 40px;
+}
+
+.dynamic_list h2 {
+    text-align: center;
+    color: #F38C22;
+}
+.dynamic_list>p{
+	text-align: center;
+	margin-top: 30px;
+}
+.dynamic_details_list_content {
+    min-height: 400px;
+    margin-top: 30px;
+}
+
+.dynamic_details_list_content > p {
+    text-indent: 2em;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.dynamic_details_title {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.dynamic_details_list_content img {
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+.announ_details_date{
+	width: 20%;
+	margin-left: 80%;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+}

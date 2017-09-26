@@ -1,0 +1,307 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+    <title>文州山博物馆</title>
+    <meta name="keywords" content="博物馆，书，图书，图书管理" />
+    <meta name="description" content="普洱市博物馆">
+    <!--    <link rel="shortcut icon" href="favicon.icon">-->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" type="text/css" href="../css/service_index.css"/>
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div class="wraper">
+        <div class="header_box">
+            <div class="header">
+                <div class="header_center">
+                    <ul>
+                        <li><a href="../index.html">首页</a></li>
+                        <li><a href="../Introduction/generality.html">概况</a></li>
+                        <li><a href="../policy/policy_index.html">政策</a></li>
+                        <li  class="select_list"><a href="../service/service.html">服务</a></li>
+                        <li><a href="../activity/activityIndex.html">活动</a></li>
+                        <li><a href="../education/education.html">教育</a></li>
+                        <li><a href="../collection/exhibition_display.html">展览</a></li>
+                        <li><a href="../collection_appreciation/collection_appreciation.html">赏析</a></li>
+                        <li><a href="../announcement/announIndex.html">公告</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content_box">
+        	 <div class="menu_top_image"><img src="../images/5-0.jpg"></div>
+            <div class="content">
+                <div class="sidebar_left_lm" style="margin-top: 0px;">
+                    <div class="column">
+                        <a style="font-size:16px; font-weight:bolder; color:#FFFFFF;" href="./service.html">
+                            <div style="background:url(../images/5-1.jpg) no-repeat; height:54px; line-height:54px; width:243px; text-align:center;">博馆服务</div>
+                        </a>
+                    </div>
+                    <div class="menu fl_rf">
+                        <ul>
+                            <a href="orderService.html">
+                                <li>预约服务</li>
+                            </a>
+
+                            <a href="visitService.html">
+                                <li>导览服务</li>
+                            </a>
+
+                            <a href="equipmentService.html">
+                                <li>配套设施及服务</li>
+                            </a>
+                            <a href="souvenirsService.html">
+                                <li>纪念品服务</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sidebar_right_lm">
+                    <div class="dq">
+                        <div class="dq_left fl_lf">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td height="45" valign="middle"><img src="../images/5-2.jpg"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="dq_right fl_lf">
+                            <table height="45" border="0" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td>当前位置：</td>
+                                        <td>
+                                            <a href="../index.html" class="bt_link">首页</a>
+                                        </td>
+                                        <td>
+                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>&nbsp;-&gt;<a href="./service.html" class="bt_link">博馆服务</a></td>
+                                                        <td>&nbsp;-&gt;<a href="./equipmentService.html" class="bt_link">配套设施及服务</a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="order_online">在线预约</div>
+                        <div class="order_things">
+                        	<table>
+                        		<tr>
+                        			<td class="order_things_left">
+                        				<form action="" method="post">
+                        					<table>
+                        						<tr>
+                        							<td>
+                        								<span>*</span>预约时间：
+                        							</td>
+                        							<td>
+                        								
+                        									<input type="text" class="order_things_left_two" onclick="SelectDate(this,'yyyy-MM-dd')"/>
+                        								
+                        							</td>
+                        							<td>
+                        								<select class="order_things_left_select">
+                        									<option>--请选择时间段--</option>
+                        									<option>10:00</option>
+                        									<option>14:00</option>
+                        								</select>
+                        							</td>
+                        						</tr>
+                        						<tr>
+                        							<td>
+                        								<span>*</span>预约人姓名：
+                        							</td>
+                        							<td colspan="2">
+                        								<input type="text"  class="order_things_left_two"/>
+                        							</td>
+                        						</tr>
+                        						<tr>
+                        							<td>
+                        								预约人单位：
+                        							</td>
+                        							<td colspan="2">
+                        								<input type="text"  class="order_things_left_two"/>
+                        							</td>
+                        						</tr>
+                        						<tr>
+                        							<td>
+                        								<span>*</span>人数：
+                        							</td>
+                        							<td colspan="2">
+                        								<input type="text"  class="order_things_left_two"/>
+                        							</td>
+                        						</tr>
+                        						<tr>
+                        							<td>
+                        								<span>*</span>联系电话：
+                        							</td>
+                        							<td colspan="2">
+                        								<input type="text"  class="order_things_left_two"/>
+                        							</td>
+                        						</tr>
+                        						<tr>
+                        							<td>
+                        								<span>*</span>手机验证码：
+                        							</td>
+                        							<td>
+                        								<input type="text"  class="order_things_left_three"/>
+                        							</td>
+                        							<td>
+                        								<input type="button" value="获取验证码" class="get_number"/>
+                        							</td>
+                        						</tr>
+                        						<tr>
+                        							<td>
+                        								备注：
+                        							</td>
+                        							<td colspan="2">
+                        								<input type="text"  class="order_things_left_two"/>
+                        							</td>
+                        						</tr>
+                        						<tr>
+                        							<td>
+                        								
+                        							</td>
+                        							<td colspan="2" class="form_submit">
+                        								<input type="submit" value="确定" id="order_form_sub"/>
+                        								<input type="button" value="取消" id="order_form_can"/>
+                        							</td>
+                        						</tr>
+                        					</table>
+                        				</form>
+                        			</td>
+                        			<td class="order_things_right">
+                        				<p>温馨提示：</p>
+                        				<p>讲解服务：</p>
+                        				<table>
+                        					<tr>
+                        						<td>一、中文讲解</td>
+                        						<td>二、外语讲解（英、日、法、德）</td>
+                        					</tr>
+                        					<tr>
+                        						<td>1-10人/30元</td>
+                        						<td>1-10人/50元</td>
+                        					</tr>
+                        					<tr>
+                        						<td>11-20人/50元</td>
+                        						<td>11-20人/80元</td>
+                        					</tr>
+                        					<tr>
+                        						<td>21人以上/80元</td>
+                        						<td>21人以上/120元</td>
+                        					</tr>
+                        				</table>
+                        				<p>以上讲解范围仅限二层主题陈列，讲解时间约1小时。 </p>
+                        				<p>全程讲解，收费加倍，讲解时间约2小时。</p>
+                        				<p>注意事项：</p>
+                        				<p>1、请预约者尽量确定参观时间，以方便其他观众进行预约讲解。</p>
+                        				<p>2、如遇特殊情况，博物馆会提早告之观众安排其他讲解方式或者另行安排参观时间。</p>
+                        				<p>语音导览：</p>
+                        				<p>语音导览为免费使用，内设中、英、日、韩四国语言讲解，使用人必须出示有效证件进行现场登记，每次使用数量最多为10个，时间为1.5小时，如有遗失或损坏按原价赔偿。</p>
+                        			</td>
+                        		</tr>
+                        	</table>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_box">
+            <div class="footer">
+                <div class="footer_left">
+                    <h2>友情链接</h2>
+                    <table>
+                        <tr>
+                            <td>
+                                <a href="#">中央博物馆</a>
+                            </td>
+                            <td>
+                                <a href="#">北京博物馆</a>
+                            </td>
+                            <td>
+                                <a href="#">天津博物馆</a>
+                            </td>
+                            <td>
+                                <a href="#">云南博物馆</a>
+                            </td>
+                            <td>
+                                <a href="#">中央博物馆</a>
+                            </td>
+                            <td>
+                                <a href="#">北京博物馆</a>
+                            </td>
+                            <td>
+                                <a href="#">天津博物馆</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">中央博物馆</a>
+                            </td>
+                            <td>
+                                <a href="#">北京博物馆</a>
+                            </td>
+                            <td>
+                                <a href="#">天津博物馆</a>
+                            </td>
+                            <td>
+                                <a href="#">云南博物馆</a>
+                            </td>
+                            <td>
+                                <a href="#">中央博物馆</a>
+                            </td>
+                            <td>
+                                <a href="#">北京博物馆</a>
+                            </td>
+                            <td>
+                                <a href="#">天津博物馆</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">中央博物馆</a>
+                            </td>
+                            <td>
+                                <a href="#">北京博物馆</a>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="footer_right">
+                    <img src="../images/saoma.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../js/public.js"></script>
+<script type="text/javascript" src="../js/date.js" ></script>
+
+</html>
